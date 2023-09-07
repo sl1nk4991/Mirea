@@ -27,7 +27,8 @@ public class Author {
         return gender;
     }
 
+    @Override
     public String toString() {
-        return (getName() + " " + getEmail() + " " + getGender());
+        return ("Name: [" + name + "], Email: [" + email + "], Gender: [" + gender + "]");
     }
 }

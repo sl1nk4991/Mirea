@@ -35,4 +35,9 @@ public class Ball {
         this.x += xDisp;
         this.y += yDisp;
     }
+
+    @Override
+    public String toString() {
+        return ("X: [" + x + "] Y: [" + y + "]");
+    }
 }
