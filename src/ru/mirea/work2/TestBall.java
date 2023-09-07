@@ -25,4 +25,9 @@ public class TestBall {
         assertEquals(8, ball.getX());
         assertEquals(16, ball.getY());
     }
+
+    @Test
+    public void testToString() {
+        assertEquals("X: [5.0], Y: [10.0]", ball.toString());
+    }
 }
