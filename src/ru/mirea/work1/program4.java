@@ -4,9 +4,9 @@ public class program4 {
     public static void main(String[] args) {
         int n = 10;
 
-        float series[] = new float[n];
+        double series[] = new double[n];
         for(int i = 1; i <= series.length; i++) {
-            series[i-1] = 1/(float)i;
+            series[i-1] = 1/(double)i;
         }
 
         System.out.print("Series: ");
