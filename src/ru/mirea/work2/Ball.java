@@ -14,7 +14,7 @@ public class Ball {
         return x;
     }
 
-     public void setX(double x) {
+    public void setX(double x) {
         this.x = x;
     }
 
@@ -38,6 +38,6 @@ public class Ball {
 
     @Override
     public String toString() {
-        return ("X: [" + x + "], Y: [" + y + "]");
+        return ("Ball@(" + x + ',' + y + ")");
     }
 }

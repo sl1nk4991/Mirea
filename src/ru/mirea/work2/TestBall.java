@@ -28,6 +28,6 @@ public class TestBall {
 
     @Test
     public void testToString() {
-        assertEquals("X: [5.0], Y: [10.0]", ball.toString());
+        assertEquals("Ball@(5.0,10.0)", ball.toString());
     }
 }
